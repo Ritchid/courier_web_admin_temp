@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="author" content="KNG Technologies Ltd." />
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    
+    <title>React App</title>
+
+    <!-- CDN -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3afbe28f9a.js" crossorigin="anonymous"></script>
+
+    <!-- App Styles -->
+    <link rel="stylesheet" href="../styles/index.css" />
+  </head>
+
+  <body>
+    <!-- Disabled JS page -->
+    <noscript>
+      <div>
+        <h1>You need to enable JavaScript to run this app.</h1>
+      </div>
+    </noscript>
+
+        <!-- Fixed navigation bar -->
+    <div id="fixed-navbar" class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-color">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="border-color: white"></span>
+            </button>
+
+            <a class="navbar-brand" href="dashboard.html">
+                <h2>
+                    <img class="mr-2" src='../img/favicon.ico' alt="Logo" /> Courier
+                </h2>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link">
+                        <span class="badge badge-danger">
+                            <i class="fa fa-bell"></i> 4
+                        </span>
+                    </a>
+                  </li>
+
+                  <li class="nav-item dropdown mr-5">
+                    <a class="nav-link" href="#" id="userNavbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="../img/male-profile-avatar.jpeg" style="width: 45px; height: 45px;" alt="User" class="rounded-circle" />                            
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="userNavbarDropdown">
+                        <a class="dropdown-item" href="profile.html"><h5>Profile</h5></a>
+                        <a class="dropdown-item" href="account.html"><h5>Account</h5></a>
+                        <a class="dropdown-item" href="settings.html"><h5>Settings</h5></a>
+                        <div class="dropdown-divider mt-2"></div>
+                        <a class="dropdown-item text-danger" href="../index.html"><h5>Logout</h5></a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+        </nav>
+    </div>
+
+    <!-- Page content -->
+    <div id="page-content">
+            <!-- side content -->
+        <div class="side-bar">
+            <ul>
+                <li class="mb-5">
+                    <div>
+                        <img style="background-color: aliceblue;" align="left" src="../img/male-profile-avatar.jpeg" alt="User" class="rounded-circle mr-3" />
+                        <span class="user">
+                            User Name
+                            <small class="rank">Administrator</small>
+                        </span>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="dashboard.html">Dashboard</a>
+                </li>
+
+                <li class="active">
+                    <a href="staff.html">Staff</a>
+                </li>
+
+                <li>
+                    <a href="rider.html">Riders</a>
+                </li>
+
+                <li>
+                    <a href="client.html">Clients</a>
+                </li>
+
+                <li>
+                    <a href="trip.html">Trips</a>
+                </li>
+
+                <li>
+                    <a href="complain.html">Complain &amp; Feedback</a>
+                </li>
+
+                <li>
+                    <a href="settings.html">Settings</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="page-body-content">
+            <div class="container py-3">
+                
+            </div>
+            
+            <footer>
+              <div>
+                 <div class="copyright">
+                     &copy; 2020 &nbsp;<a target="_blank" href="https://kngtechnologies.com">KNG Technologies</a> &nbsp; All Right Reserved.
+                 </div> 
+             </div>
+            </footer>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
